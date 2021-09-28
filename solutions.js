@@ -1,3 +1,4 @@
+// Project Euler - Problem #2:
 const getFibSum = () => {
   let result = 0;
 	let previous = 0;
@@ -14,6 +15,6 @@ const getFibSum = () => {
 		previous = current
 		current = next 
 	}
-	console.log('here', result)
+	console.log('Problem 2', result)
 }
-getFibSum(4000000)
+getFibSum()
